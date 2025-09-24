@@ -1,71 +1,92 @@
 *{
-    background-color:rgb(255, 255, 255);
-    padding: 0;
     margin: 0;
-    box-sizing: border-box ;
-    color:black;
-    text-align: center;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-.sec-perfil {
-    text-align: center;
-}
-
-.foto-perfil {
-    margin: 1rem;
-    width: 10rem;
-    border: white, solid;
-    border-radius: 10rem;
-}
-
-.sec-nome {
-    margin: 0 0 2rem 0;
-}
-
-.nome {
-    font-size: 3rem;
-}
-
-.cargo {
-    font-size: 1rem;
-    margin: 0 0 0.85rem;
-}
-
-.sec-btn {
+.principal{
     display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    text-align: center;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    background-color:rgb(140, 215, 250);
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
 }
 
-.btn-link {
-    background: white;
+.caixa-maior{
+    background-color: rgb(55, 78, 109);
+    width: 95%;
+    max-width: 45rem;
+    opacity: 0.8;
+    padding: 1.5rem;
+    border-radius: 20pt;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(200, 228, 255);
+    opacity: 0.8;
+    margin-bottom: 1.25rem;
+    border-radius: 20pt;
+    margin-top: 0.500rem;
+    margin-bottom: 2rem;
+}
+
+.input-cidade, .pesquisar{
     border: none;
-    border-radius: 1.28rem;
-    cursor: pointer;
-    display: block;
-    font-size: 2.5rem;
-    height: 4rem;
-    width: 20rem;
-    margin: 2rem 15%;
+    outline: none;
+    padding: 0.625rem;
+    width: 300px;
+    border-radius: 7pt;
     text-align: center;
-    text-decoration: none;
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
-.btn-link:hover {
-    background: white;
+.pesquisar{
+
+    margin-top: 0.300rem;
+    margin-bottom: 2rem;
+
 }
 
-.btn-link:active {
-  opacity: 15%;
-  transition: 0.2s;
+.pesquisar:hover{
+    border-radius: 5pt;
+    border: none;
+    height: 50px;
+    background-color: rgb(146, 207, 226);
 }
 
-.rodape {
+.pesquisar:active{
+    border-radius: 10pt;
+    border: none;
+    height: 50px;
+    background-color: rgb(0, 124, 146);
+}
+
+.caixinha{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: #eee7de;
+    
+}
+
+.cidade, .tempo, .descrição, .umidade{
+
     font-size: 2rem;
-    margin: 5rem 0 0 0.85rem 0;
-    padding-top: 5rem;
-    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+#icon{
+
+    height: 60px;
+    
 }
